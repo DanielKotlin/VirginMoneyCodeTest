@@ -44,31 +44,6 @@ object RetrofitClient {
     /**
      * Get Comments data
      */
-    fun getPosts(context: Context) {
-        val call: Call<Posts> = getUrl().getPosts()
-        Log.d("____URL ::", call.request().url().toString())
-        val spinner = CommonUtils.showSpinner(context)
-        call.enqueue(object : Callback<Posts> {
-            override fun onResponse(call: Call<Posts>, response: Response<Posts>) {
-                if (!response.isSuccessful) {
-                    CommonUtils.showError(
-                        context,
-                        context.resources.getString(R.string.network_error)
-                    )
-                }
-                spinner.dismiss()
-            }
-
-            override fun onFailure(call: Call<Posts>, t: Throwable) {
-                spinner.dismiss()
-                CommonUtils.showError(context, context.resources.getString(R.string.network_error))
-            }
-        })
-    }
-
-    /**
-     * Get Comments data
-     */
     fun getComments(context: Context) {
         val call: Call<Comments> = getUrl().getComments()
         Log.d("____URL ::", call.request().url().toString())

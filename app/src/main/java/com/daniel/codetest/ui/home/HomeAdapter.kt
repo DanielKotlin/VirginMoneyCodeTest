@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.daniel.codetest.R
 import com.daniel.codetest.databinding.HomeAdapterBinding
 import com.daniel.codetest.domain.model.Users
 
@@ -25,6 +26,18 @@ class HomeAdapter(
     override fun onBindViewHolder(holder: HomeViewHolder, position: Int) {
         val model = users[position]
         holder.itemBinding.textName.text = model.name
+        holder.itemBinding.textEmail.text = model.email
+        if (model.status == mContext.resources.getString(R.string.status)) {
+            holder.itemBinding.homeRoot.setBackgroundColor(mContext.getColor(R.color.green))
+        } else {
+            holder.itemBinding.homeRoot.setBackgroundColor(mContext.getColor(R.color.red))
+        }
+
+        if (model.gender == mContext.resources.getString(R.string.gender)) {
+            holder.itemBinding.profilePic.setBackgroundResource(R.drawable.ic_user_male_avatar)
+        } else {
+            holder.itemBinding.profilePic.setBackgroundResource(R.drawable.ic_user_woman_avatar)
+        }
     }
 
     /*
