@@ -1,6 +1,9 @@
 package com.daniel.codetest.enums
 
-/** Enum class which defines the supported build environments */
+/**
+ * Created by Daniel.
+ * Enum class which defines the supported build environments
+ */
 enum class Environment {
     PRODUCTION,
     QA,

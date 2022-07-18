@@ -4,15 +4,20 @@
     android:id="@+id/home_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/green"
+    android:background="?android:attr/selectableItemBackground"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/profile_pic"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="@dimen/profile_size"
+        android:layout_height="@dimen/profile_size"
         android:background="@drawable/ic_user_male_avatar"
         android:layout_margin="@dimen/nav_header_vertical_spacing"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:strokeColor="@color/material_700"
+        app:strokeWidth="1dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

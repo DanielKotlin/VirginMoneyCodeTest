@@ -8,13 +8,10 @@ import com.daniel.codetest.utils.CommonUtils
  */
 object Globals {
 
-    // Internal project name
-    const val APPLICATION_NAME = "CodeTest"
-
     // Base URLs by Environment
-    private const val BASE_URL_PROD = "https://gorest.co.in/public/v2/"
-    private const val BASE_URL_QA = "https://gorest.co.in/public/v2/"
-    private const val BASE_URL_DEV = "https://gorest.co.in/public/v2/"
+    private const val BASE_URL_PROD = "https://61e947967bc0550017bc61bf.mockapi.io/api/v1/"
+    private const val BASE_URL_QA = "https://61e947967bc0550017bc61bf.mockapi.io/api/v1/"
+    private const val BASE_URL_DEV = "https://61e947967bc0550017bc61bf.mockapi.io/api/v1/"
 
     val BASE_URL = when (CommonUtils.environment) {
         Environment.PRODUCTION -> BASE_URL_PROD

@@ -1,20 +1,14 @@
 package com.daniel.codetest.remote
 
-import android.content.Context
-import android.util.Log
 import com.daniel.codetest.Globals
-import com.daniel.codetest.R
-import com.daniel.codetest.domain.model.Comments
-import com.daniel.codetest.domain.model.Posts
-import com.daniel.codetest.utils.CommonUtils
 import okhttp3.OkHttpClient
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
+/**
+ * Created by Daniel.
+ */
 object RetrofitClient {
 
     private var retrofit: Retrofit? = null
@@ -38,32 +32,6 @@ object RetrofitClient {
             .connectTimeout(2, TimeUnit.MINUTES)
             .readTimeout(2, TimeUnit.MINUTES)
             .build()
-    }
-
-
-    /**
-     * Get Comments data
-     */
-    fun getComments(context: Context) {
-        val call: Call<Comments> = getUrl().getComments()
-        Log.d("____URL ::", call.request().url().toString())
-        val spinner = CommonUtils.showSpinner(context)
-        call.enqueue(object : Callback<Comments> {
-            override fun onResponse(call: Call<Comments>, response: Response<Comments>) {
-                if (!response.isSuccessful) {
-                    CommonUtils.showError(
-                        context,
-                        context.resources.getString(R.string.network_error)
-                    )
-                }
-                spinner.dismiss()
-            }
-
-            override fun onFailure(call: Call<Comments>, t: Throwable) {
-                spinner.dismiss()
-                CommonUtils.showError(context, context.resources.getString(R.string.network_error))
-            }
-        })
     }
 
 }

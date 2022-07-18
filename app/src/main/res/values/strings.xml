@@ -7,12 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_post">Posts</string>
+    <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="common_error">Something went wrong, please try again</string>
 
-    <string name="gender">male</string>
-    <string name="status">active</string>
-    <string name="network_error">Something went wrong, please try again</string>
-    <string name="generalPrefPackageIdentifier">com.daniel.codetest.GeneralPrefs</string>
-    <string name="unsupported_property_type">Unsupported property type received in sharedPrefs</string>
 </resources>

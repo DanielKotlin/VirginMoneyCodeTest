@@ -1,23 +1,21 @@
 package com.daniel.codetest.remote
 
-import com.daniel.codetest.domain.model.Comments
-import com.daniel.codetest.domain.model.Posts
-import com.daniel.codetest.domain.model.Users
-import okhttp3.ResponseBody
+import com.daniel.codetest.domain.model.People
+import com.daniel.codetest.domain.model.RoomInfo
 import retrofit2.Call
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 /**
  * Interface used to provide api endpoints on implementation
  */
 interface APIService {
-    @GET("users")
-    fun getUsers(): Call<Users>
 
-    @GET("posts")
-    fun getPosts(): Call<Posts>
+    @GET("people")
+    fun getPeoples(): Call<People>
 
-    @GET("comments")
-    fun getComments(): Call<Comments>
-
+    @GET("rooms?")
+    fun getRooms(
+        @Query("id") page: Int,
+    ): Call<RoomInfo>
 }

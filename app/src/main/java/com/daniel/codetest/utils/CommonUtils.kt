@@ -7,12 +7,14 @@ import android.net.NetworkCapabilities
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.Window
-import com.daniel.codetest.BuildConfig
+import androidx.viewbinding.BuildConfig
 import com.daniel.codetest.R
 import com.daniel.codetest.databinding.MessageDialogBinding
 import com.daniel.codetest.enums.Environment
 
-
+/**
+ * Created by Daniel.
+ */
 object CommonUtils {
 
     /** Globally accessible build environment */
@@ -43,7 +45,7 @@ object CommonUtils {
     }
 
     /**
-     *  This function used to show waiting spinner
+     *  This function used to show the waiting for response
      *
      * @param context activity or fragment context
      */
@@ -65,7 +67,8 @@ object CommonUtils {
      */
     fun showError(context: Context, msg: String) {
         val dialog = Dialog(context)
-        val binding: MessageDialogBinding = MessageDialogBinding.inflate(LayoutInflater.from(context))
+        val binding: MessageDialogBinding =
+            MessageDialogBinding.inflate(LayoutInflater.from(context))
         dialog.setContentView(binding.root)
         dialog.setCancelable(true)
         dialog.window?.setGravity(Gravity.CENTER)

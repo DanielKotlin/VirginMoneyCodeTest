@@ -16,14 +16,17 @@
         <entry key="..\:/AndroidStudioWorkspace/CodeTest/app/src/main/res/layout/spinner.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioWorkspace/CodeTest/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioWorkspace/CodeTest/app/src/main/res/menu/main.xml" value="0.29322916666666665" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1555" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/border.xml" value="0.2345" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_baseline_home.xml" value="0.205" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_baseline_post_add_24.xml" value="0.205" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1555" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_male_user_avatar.xml" value="0.205" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.205" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.205" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_user_male_avatar.xml" value="0.205" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/ic_user_woman_avatar.xml" value="0.205" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/side_nav_bar.xml" value="0.1555" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/status.xml" value="0.154" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/status_green.xml" value="0.205" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/drawable/status_red.xml" value="0.205" />
@@ -31,12 +34,15 @@
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/activity_main.xml" value="0.1259259259259259" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/app_bar_main.xml" value="0.3625" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/content_main.xml" value="0.34782608695652173" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/fragment_home.xml" value="0.20555555555555555" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/home_adapter.xml" value="0.24259259259259258" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/message_dialog.xml" value="0.34782608695652173" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/nav_header_main.xml" value="0.3625" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/post_adapter.xml" value="0.3625" />
-        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/swipe_recycler_view.xml" value="0.3625" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/roominfo_dialog.xml" value="0.24537037037037038" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/spinner.xml" value="0.3625" />
+        <entry key="..\:/SystemTask/CodeTest/app/src/main/res/layout/swipe_recycler_view.xml" value="0.24537037037037038" />
         <entry key="..\:/SystemTask/CodeTest/app/src/main/res/menu/activity_main_drawer.xml" value="0.3569230769230769" />
       </map>
     </option>
