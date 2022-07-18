@@ -1,10 +1,6 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-x
-Happ/src/main/java/com/daniel/codetest/ui/slideshow/SlideshowViewModel.kt,9\2\9242b7181701751f5973927faf537d8f7631c814
-l
-<app/src/main/java/com/daniel/codetest/ui/home/HomeAdapter.kt,2\c\2c99dc77e27f970eac59931dcb908eb24925df0e
 l
 <app/src/main/java/com/daniel/codetest/localdb/UserDataDao.kt,5\1\51eb11e64d4b02364fb9952149741d3b5076caba
 t
@@ -13,5 +9,33 @@ j
 :app/src/main/java/com/daniel/codetest/localdb/LocalRoom.kt,0\8\0899cc162f27946b4cd8678894b3e3e975a7a67f
 j
 :app/src/main/java/com/daniel/codetest/extensions/DateEx.kt,8\2\82cae7cb5b8e31241701f6d9f360dc4205776f76
+l
+<app/src/main/java/com/daniel/codetest/domain/model/People.kt,2\4\243126372ce90e8b4d3023c270b0f68b76fb35b3
+r
+Bapp/src/main/java/com/daniel/codetest/domain/model/RoomInfoItem.kt,1\5\15ac549c2e93c57eef474fb9fce6a94db26ec747
 n
->app/src/main/java/com/daniel/codetest/ui/home/HomeViewModel.kt,2\4\24776c7dde1fbfda862cf1fbb11d8f6c365dfc8b
+>app/src/main/java/com/daniel/codetest/domain/model/RoomInfo.kt,d\b\dbb2d5df79cc23d598ff3bd29911530087b53761
+x
+Happ/src/main/java/com/daniel/codetest/presentation/home/HomeViewModel.kt,2\1\2187cf40b86a16db527dab72ec127cf0fc7748a9
+ˆ
+Xapp/src/main/java/com/daniel/codetest/presentation/interfaces/PeopleItemClickListener.kt,c\f\cf623fed817c9510462ea38bead00e3e765fd9b5
+v
+Fapp/src/main/java/com/daniel/codetest/presentation/home/HomeAdapter.kt,c\4\c46d1739cf1fc8639a5db42a79df00c950d5b459
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+j
+:app/src/main/java/com/daniel/codetest/remote/APIService.kt,e\8\e8e064fad792aa939c20ca4502c262893b59c943
+j
+:app/src/main/java/com/daniel/codetest/utils/CommonUtils.kt,c\a\cac01f9799a23c412bd2b3ba23f9d8a264432a15
+j
+:app/src/main/java/com/daniel/codetest/enums/Environment.kt,7\4\7408ae4838cc74eda4e166da9bebd5a57bce52fe
+`
+0app/src/main/java/com/daniel/codetest/Globals.kt,e\9\e975960422af37a6a4d7d7e51ab2cf52ebff0b51
+e
+5app/src/main/java/com/daniel/codetest/MainActivity.kt,d\a\da123ffb4ed7fc65eff95fe15b9cf277ba491e9d
+n
+>app/src/main/java/com/daniel/codetest/remote/RetrofitClient.kt,6\8\68ba4c5136565fb39da52e4b36c1b9ff194e2edf
+w
+Gapp/src/main/java/com/daniel/codetest/presentation/home/HomeFragment.kt,c\6\c6cf417918f1fa1b80d395f5186480e3abb625b7
